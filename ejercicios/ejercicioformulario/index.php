@@ -111,11 +111,13 @@
      	 	 	$nuevoSalario = $salario * 1.10;
      	 	}
      	} 
+
         
         echo "<div class='resultado'>";
      	echo "<h3>Análisis para: $nombre $apellido</h3>";
         
      	echo "<p>Hola $nombre, tu nuevo salario es <strong>" . number_format($nuevoSalario, 2, ',', '.') . "€</strong></p>";
+        // ------------------------------------
         
         echo "</div>";
     }
