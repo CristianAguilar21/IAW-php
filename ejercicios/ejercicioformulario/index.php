@@ -93,7 +93,6 @@
      	$salario = (float) $_GET['salario'];
      	$edad = (int) $_GET['edad'];
 
-        // 1. Calculamos el nuevo salario y lo guardamos en una variable
         $nuevoSalario = $salario; 
 
      	if ($salario < 1000) {
@@ -112,17 +111,11 @@
      	 	 	$nuevoSalario = $salario * 1.10;
      	 	}
      	} 
-        // Si es > 2000, $nuevoSalario sigue siendo igual a $salario, así que no hay 'else'.
-
         
-        // 2. Mostramos el resultado con el div y tu frase
         echo "<div class='resultado'>";
      	echo "<h3>Análisis para: $nombre $apellido</h3>";
         
-        // --- ESTA ES LA LÍNEA QUE QUERÍAS ---
-        // (He corregido "salrio" por "salario" y he añadido el formato de número)
      	echo "<p>Hola $nombre, tu nuevo salario es <strong>" . number_format($nuevoSalario, 2, ',', '.') . "€</strong></p>";
-        // ------------------------------------
         
         echo "</div>";
     }
