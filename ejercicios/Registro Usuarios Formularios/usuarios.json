@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "nombre": "pepe",
+        "clave": "$2y$10$BedJyfOCS.wPN0dDp9iqWuA3KpqJ8cm1t7AAVyINbyQx1kKdiHQya"
+    },
+    {
+        "nombre": "juan",
+        "clave": "$2y$10$xJlU6N7jKSjfaKue9Csn5OFPGSO1XCSihaW9W.npu6O1eURCoU.Na"
+    },
+    {
+        "nombre": "asdh",
+        "clave": "$2y$10$fjsoQxw71i10tpfU6IkgpOZV0ymCR8nYXPo\/IWw2MfFxH1AAtzLiq"
+    }
+]
